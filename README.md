@@ -1,2 +1,3 @@
 # TankFight
-a 2D game
+It is a simple 2D game.
+
