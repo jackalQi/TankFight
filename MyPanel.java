@@ -47,7 +47,9 @@ public class MyPanel extends JPanel implements ActionListener, Runnable, KeyList
                 mt.bs.remove(b);
             }
         }
+        // draw bomb
         for(int i= 0; i < bombs.size(); i++){
+            g.setColor(Color.white);
             Bomb bomb = bombs.get(i);
             if (bomb.life > 6)
             {	g.drawOval(bomb.x - 20, bomb.y - 25, 40, 50);
@@ -96,7 +98,6 @@ public class MyPanel extends JPanel implements ActionListener, Runnable, KeyList
                 if (b.x < et.x + 20 && b.x > et.x - 20 && b.y > et.y - 25 && b.y < et.y + 25){
                     b.isLive = false;
                     et.isLive = false;
-                    mt.isLive = false;
                     Bomb bomb = new Bomb(et.x,et.y);
                     bombs.add(bomb);
                 }
@@ -105,7 +106,6 @@ public class MyPanel extends JPanel implements ActionListener, Runnable, KeyList
                 if(b.x < et.x + 25 && b.x > et.x - 25 && b.y > et.y - 20 && b.y < et.y + 20){
                     b.isLive = false;
                     et.isLive = false;
-                    mt.isLive = false;
                     Bomb bomb = new Bomb(et.x,et.y);
                     bombs.add(bomb);
 
