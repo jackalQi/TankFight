@@ -9,6 +9,9 @@ Use threads(implements Runnable) to make enemy tanks move like their own.
   <img src = "https://github.com/jackalQi/images/blob/master/1.gif">
   </p>
 <h6> Killed a Enemy Tank</h6>
-
+<p>
+  <img src = "https://github.com/jackalQi/images/blob/master/2.gif">
+  </p>
+<h2> Updating</h2>
 Will add more functions.(decorate the map, like wall, water,etc. , add Sorce function, more items, save & load game)
 Will create more Tanks and more stages.
