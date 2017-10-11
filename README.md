@@ -8,7 +8,7 @@ Use threads(implements Runnable) to make enemy tanks move like their own.
 <p>
   <img src = "https://github.com/jackalQi/images/blob/master/1.gif">
   </p>
-<h6> Killed a Enemy Tank</h6>
+<h6> Killed an Enemy Tank</h6>
 <p>
   <img src = "https://github.com/jackalQi/images/blob/master/2.gif">
   </p>
